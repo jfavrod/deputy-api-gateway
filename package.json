@@ -1,13 +1,14 @@
 {
   "name": "deputygateway",
-  "version": "1.0.0-dev.0",
+  "version": "1.0.0-dev.1",
   "description": "A Gateway to the Deputy.com API.",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "mocha test/"
+    "test": "mocha test/",
+    "test:jenkins": "JUNIT_REPORT_PATH=report.xml mocha --colors --reporter mocha-jenkins-reporter test/"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,11 @@
   },
   "homepage": "https://github.com/jfavrod/deputygateway#readme",
   "devDependencies": {
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "mocha-jenkins-reporter": "^0.4.1"
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
   }
 }
