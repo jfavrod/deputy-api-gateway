@@ -1,5 +1,5 @@
 {
-  "name": "deputygateway",
+  "name": "deputy-api-gateway",
   "version": "1.0.0-dev.1",
   "description": "A Gateway to the Deputy.com API.",
   "main": "lib/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jfavrod/deputygateway.git"
+    "url": "git+ssh://git@github.com/jfavrod/deputy-api-gateway.git"
   },
   "keywords": [
     "deputy.com",
@@ -25,9 +25,9 @@
   "author": "Jason Favrod <mail@jasonfavrod.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jfavrod/deputygateway/issues"
+    "url": "https://github.com/jfavrod/deputy-api-gateway/issues"
   },
-  "homepage": "https://github.com/jfavrod/deputygateway#readme",
+  "homepage": "https://github.com/jfavrod/deputy-api-gateway#readme",
   "devDependencies": {
     "mocha": "^5.2.0",
     "mocha-jenkins-reporter": "^0.4.1"
