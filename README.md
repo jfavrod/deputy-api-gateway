@@ -1,5 +1,9 @@
 deputy-api-gateway
 ==================
+[![Build Status](https://travis-ci.com/jfavrod/deputy-api-gateway.svg?branch=master)](https://travis-ci.com/jfavrod/deputy-api-gateway)
+![Bundle Size](https://img.shields.io/bundlephobia/min/deputy-api-gateway.svg?style=flat)
+[![Requirements Status](https://requires.io/github/jfavrod/deputy-api-gateway/requirements.svg?branch=master)](https://requires.io/github/jfavrod/deputy-api-gateway/requirements/?branch=master)
+
 A Gateway to the Deputy.com API.
 
 Works with the current version (v1) of the API.
