@@ -36,3 +36,16 @@ const deputy = new DeputyGateway('mycompany.na.deputy.com',
 deputy.get('my/location')
 .then(data => console.log(data);
 ```
+
+### TypeScript
+
+```typescript
+import DeputyGateway from "deputy-api-gateway";
+import { } from "deputy-api-gateway";
+
+const deputy = new DeputyGateway('mycompany.na.deputy.com',
+    process.env.DEPUTY_TOKEN);
+
+deputy.get('my/location')
+.then(data => console.log(data);
+```

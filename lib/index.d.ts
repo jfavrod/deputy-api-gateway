@@ -3,6 +3,7 @@ export = DeputyGateway;
 declare class DeputyGateway {
     constructor(subdomain: string, token: string);
     get(endpoint: string): Promise<any>;
+    post(endpoint: string, body: any): Promise<any>;
 }
 
 declare namespace DeputyGateway {
