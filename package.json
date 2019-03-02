@@ -1,6 +1,6 @@
 {
   "name": "deputy-api-gateway",
-  "version": "1.0.0-dev.7",
+  "version": "1.0.0-dev.8",
   "description": "A Gateway to the Deputy.com API.",
   "main": "lib/index.js",
   "directories": {

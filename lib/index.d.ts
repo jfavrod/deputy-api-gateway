@@ -1,12 +1,32 @@
 export = DeputyGateway;
 
 declare class DeputyGateway {
-    constructor(subdomain: string, token: string);
+    constructor(url: string, token: string, version?: string);
     get(endpoint: string): Promise<any>;
     post(endpoint: string, body: any): Promise<any>;
 }
 
 declare namespace DeputyGateway {
+    export interface ICompany {
+        Id?: number,
+        Portfolio?: number,
+        Code: string,
+        Active?: boolean,
+        PartentCompany?: number,
+        CompanyName: string,
+        TradingName?: string,
+        BusinessNumber?: string,
+        CompanyNumber?: string,
+        IsWorkplace: boolean
+        IsPayrollEntity: boolean,
+        PayrollExportCode?: string,
+        Address?: number,
+        Contact?: number,
+        Creator?: number,
+        Created?: string,
+        Modified?: string
+    }
+
     export interface IEmployee {
         Id?: number;
         Company: number;
